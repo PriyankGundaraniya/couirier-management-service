@@ -1,0 +1,79 @@
+@import '../../css/general'
+@import '../../css/variable'
+
+.general_delivery
+    height: 40px
+    margin: 10px 0
+.send-to-rec > div >  div
+    width: 320px
+.form_control_wrapper
+    display: flex
+    flex-direction: column
+    label
+        margin-bottom: 10px
+        color: #000
+        font-weight: 600
+    input,select
+        border: 2px solid #1E2330
+        height: 50px
+        border-radius: 5px
+        font-size: 18px
+        padding: 10px 15px
+        &:focus
+            background-color: #1E2330
+            color: $white
+.pt__table_print
+    margin-top: 15px
+    border-top: 1px solid $dark-blur
+    padding-top: 30px 
+    .col-4,.col-8
+        padding: 0 !important
+    .pt__table-data
+        width: 100%
+        margin-top: 30px
+        padding: 0
+        table
+            width: 100%
+            // text-align: center
+            td
+                padding: 10px
+                border: 1px solid $dark-blur
+            th
+                text-align: left
+                padding: 5px
+                font-size: 14px
+                border: 1px solid $dark-blur
+                background-color: $black
+                color: $white
+    .header_form
+        display: flex
+        align-items: center
+        border-radius: 10px
+        .btn
+            border-radius: 0 5px 5px 0
+    .header_input
+        font-size: 14px
+        padding: 5px
+        height: 37px
+        &::placeholder
+            font-family: 'Inter', sans-serif
+    .table-other
+        padding: 0 15px
+        display: flex
+        gap: 30px
+    .search_lr
+        padding: 0 15px
+        display: flex
+        justify-content: end
+    .time_btn
+        padding: 8px 14px
+        font-size: 14px
+        border-radius: 5px
+        font-weight: 500
+        height: 37px
+    .pt__lr_num
+        background-color: #FFAD33
+    .pt__lr_time
+        background-color: #FFf
+    .pt__lr_item
+        background-color: #007BFF

@@ -1,0 +1,61 @@
+@import '../../css/general'
+@import '../../css/variable'
+    
+.pt__login
+    .container
+        max-width: 100%
+        .row
+            .col-8,.col-4
+                padding: 0
+    .pt__login_img
+        padding: 80px
+        height: 100vh
+        background-color: #39A1FF
+        display: flex
+        justify-content: center
+        align-items: center
+        img
+            max-width: 100%
+    .pt__login_form
+        padding: 30px
+        height: 100vh
+        background-color: #01073A
+        color: $white
+        text-align: center
+        display: flex
+        align-items: center
+        justify-content: center
+        .pt__login_input
+            display: flex
+            flex-direction: column
+            margin-top: 30px
+            label
+                font-size: 20px
+                text-align: left
+                margin-bottom: 10px
+            .form-control
+                padding: 15px
+                border-radius: 10px
+                border: 1px solid #B1B1B1
+                background-color: #001A4E
+                &::placeholder
+                    font-family: 'Inter', sans-serif
+        .pt__login_btn
+            margin-top: 40px
+            display: flex
+            justify-content: start
+            .submit_btn
+                padding: 15px 30px
+                border-radius: 10px
+                background-color: #0083F9
+                border: none
+                color: $white
+                font-family: 'Inter', sans-serif
+                font-weight: 500
+                font-size: 20px
+                transition: all 0.5s
+                cursor: pointer
+                &:hover
+                    transform: translateY(-10px)
+                    color: #0083F9
+                    background-color: #fff

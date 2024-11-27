@@ -1,0 +1,29 @@
+.builty_table table {
+    width: 750px;
+    margin: 30px;
+    border: 1px solid #000
+}
+
+.builty_table table td,
+.builty_table table th {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.text-start {
+    text-align: left;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.builty_table table b {
+    font-size: 18px;
+}
+
+.builty_table table p {
+    padding: 7px 20px;
+    display: inline-block;
+    border: 1px solid #000;
+}

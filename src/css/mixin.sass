@@ -1,0 +1,60 @@
+=max($value)
+  @media (max-width: #{$value}px)
+    @content
+
+=min($value)
+  @media (min-width: #{$value}px)
+    @content
+
+=mobile($value: 0)
+  @if $value == 0
+    @media (max-width: 561px)
+      @content
+  @else
+    @media (min-width: 562px)
+      @content
+
+=tablet($value: 0)
+  @if $value == 0
+    @media (max-width: 767px)
+      @content
+  @else
+    @media (min-width: 768px)
+      @content
+
+=xsd($value: 0)
+  @if $value == 0
+    @media (max-width: 991px)
+      @content
+  @else
+    @media (min-width: 992px)
+      @content
+
+=sd($value: 0)
+  @if $value == 0
+    @media (max-width: 1199px)
+      @content
+  @else
+    @media (min-width: 1200px)
+      @content
+
+=md($value: 0)
+  @if $value == 0
+    @media (max-width: 1366px)
+      @content
+  @else
+    @media (min-width: 1367px)
+      @content
+
+=laptop($value: 0)
+  @if $value == 0
+    @media (max-width: 1440px)
+      @content
+  @else
+    @media (min-width: 1441px)
+      @content
+
+
+@mixin max-width($value)
+  max-width: $value
+  flex: 0 0 $value
